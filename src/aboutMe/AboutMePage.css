@@ -1,0 +1,119 @@
+.Whole-Thing {
+    font-family: Ubuntu, serif;
+    background-color: #fff;
+}
+
+.Section-Header {
+    text-align: center;
+    padding: 30px;
+    font-size: calc(10px + 3vmin);
+}
+
+.About-Me-Section {
+    display: flex;
+    justify-content: center;
+}
+
+.Bio {
+    padding-left: 5%;
+}
+
+.Bio-Items {
+    padding-bottom: 5px;
+}
+
+.Secondary-Tail {
+    background-color: white;
+}
+
+.Unused {
+    -webkit-box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+}
+
+.Timeline-Content-Title {
+    font-size: calc(10px + 1vmin);
+}
+
+.me {
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    border: 5px solid black;
+    -moz-box-shadow: 8px 7px #AFAFAF;
+    -webkit-box-shadow: 8px 7px #AFAFAF;
+    box-shadow: 8px 7px #AFAFAF;
+}
+
+.Description-Header {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 20%;
+}
+
+.Description-Text {
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 20%;
+}
+
+.Root {
+    max-width: 345px;
+}
+
+.Media {
+    height: 140px;
+}
+
+.Project-Platform {
+    display: flex;
+    justify-content: center;
+}
+
+.Project-Container {
+    display: flex;
+    align-self: center;
+    width: 40%;
+}
+
+.Project-Slider {
+    align-self: center;
+    width: 100%;
+}
+
+.Platform {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.Card {
+    border: grey;
+    -webkit-box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card-Title {
+    font-size: calc(10px + 2vmin);
+    align-self: center;
+}
+
+.ProjectLogo {
+    align-self: center;
+    height: 72px;
+    width: 72px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.Bullets {
+    padding-right: 5px;
+}

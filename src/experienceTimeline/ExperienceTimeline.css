@@ -1,0 +1,33 @@
+.Date-Timeline {
+    font-family: Ubuntu, serif;
+    left: -24px;
+}
+
+.Timeline {
+    margin-left: -40%;
+    margin-right: 10%;
+}
+
+.Timeline-Item {
+    padding-bottom: 50px;
+}
+
+.Timeline-Icon {
+    display: block;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.Timeline-Separator {
+    padding-right: 15px;
+}
+
+.Timeline-Box {
+    position: relative;
+    padding-left: 15px;
+    border-radius: 1em;
+    -webkit-box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+}
