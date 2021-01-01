@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/matttongdotcom.github.io/static/css/main.13e0a19b.chunk.css",
+    "main.js": "/matttongdotcom.github.io/static/js/main.38fff8f9.chunk.js",
+    "main.js.map": "/matttongdotcom.github.io/static/js/main.38fff8f9.chunk.js.map",
+    "runtime-main.js": "/matttongdotcom.github.io/static/js/runtime-main.6e29b115.js",
+    "runtime-main.js.map": "/matttongdotcom.github.io/static/js/runtime-main.6e29b115.js.map",
+    "static/css/2.c4da6348.chunk.css": "/matttongdotcom.github.io/static/css/2.c4da6348.chunk.css",
+    "static/js/2.3c65dfa8.chunk.js": "/matttongdotcom.github.io/static/js/2.3c65dfa8.chunk.js",
+    "static/js/2.3c65dfa8.chunk.js.map": "/matttongdotcom.github.io/static/js/2.3c65dfa8.chunk.js.map",
+    "static/js/3.5d348459.chunk.js": "/matttongdotcom.github.io/static/js/3.5d348459.chunk.js",
+    "static/js/3.5d348459.chunk.js.map": "/matttongdotcom.github.io/static/js/3.5d348459.chunk.js.map",
+    "index.html": "/matttongdotcom.github.io/index.html",
+    "static/css/2.c4da6348.chunk.css.map": "/matttongdotcom.github.io/static/css/2.c4da6348.chunk.css.map",
+    "static/css/main.13e0a19b.chunk.css.map": "/matttongdotcom.github.io/static/css/main.13e0a19b.chunk.css.map",
+    "static/js/2.3c65dfa8.chunk.js.LICENSE.txt": "/matttongdotcom.github.io/static/js/2.3c65dfa8.chunk.js.LICENSE.txt",
+    "static/media/IL-logo.b1e5e5e9.png": "/matttongdotcom.github.io/static/media/IL-logo.b1e5e5e9.png",
+    "static/media/index.css": "/matttongdotcom.github.io/static/media/Ubuntu-Regular.fbdecfce.ttf",
+    "static/media/lifewire.bf1eb38a.png": "/matttongdotcom.github.io/static/media/lifewire.bf1eb38a.png",
+    "static/media/me.687404dc.JPG": "/matttongdotcom.github.io/static/media/me.687404dc.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e29b115.js",
+    "static/css/2.c4da6348.chunk.css",
+    "static/js/2.3c65dfa8.chunk.js",
+    "static/css/main.13e0a19b.chunk.css",
+    "static/js/main.38fff8f9.chunk.js"
+  ]
+}
