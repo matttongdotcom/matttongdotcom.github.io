@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react';
 import AboutMePage from "./aboutMe/AboutMePage";
 
-
 function App() {
   return (
       <div>

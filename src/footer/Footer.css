@@ -1,0 +1,30 @@
+.App-footer {
+    background-color: #00A4EF;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 1vmin);
+    color: white;
+}
+
+.Footer-Title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-self: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.Contact-Item-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    align-self: center;
+}
+
+.Column-2 {
+    text-align: right;
+}
+
+
+
+

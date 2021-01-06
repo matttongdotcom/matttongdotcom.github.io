@@ -10,6 +10,8 @@ import scares from './scares.png';
 import delt from './delt.png';
 import recipe from './recipe.png'
 import bcm from './bcm.png'
+import resume from './TONG_WEBSITE_RESUME.pdf'
+import Footer from "../footer/Footer";
 
 class AboutMePage extends Component {
     render() {
@@ -52,6 +54,12 @@ class AboutMePage extends Component {
                 </div>
                 <div className="Description-Text">
                     I have significant experience in Process Engineering, Systems Engineering, and Software Development.
+                    If you'd like to see my official resume, click below!
+                </div>
+                <div className="Resume-Button-Wrapper">
+                    <button className="Resume-Button">
+                        <a className="Resume-Button-Text" href={resume} download> Resume!</a>
+                    </button>
                 </div>
                 <div className="Section-Header">
                     Skills
@@ -140,9 +148,7 @@ class AboutMePage extends Component {
                     Here are some things I've been involved in over the years.
                 </div>
                 <ExtraCurriculars/>
-                <div className="Section-Header">
-                    Contact Me!
-                </div>
+                <Footer/>
             </div>
         );
     }

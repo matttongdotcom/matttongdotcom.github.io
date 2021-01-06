@@ -60,6 +60,31 @@
     padding-right: 20%;
 }
 
+.Resume-Button-Wrapper {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Resume-Button {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #00A4EF;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 10%;
+    margin: 5px;
+}
+
+.Resume-Button-Text {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
 .Root {
     max-width: 345px;
 }
