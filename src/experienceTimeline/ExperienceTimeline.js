@@ -30,7 +30,9 @@ class ExperienceTimeline extends Component {
                     </div>
                     <p>
                         At Rightpoint, I worked as an Android Developer on a single sign-on, multi-factor authentication
-                        platform for the three major telecommunication carriers.
+                        platform for the three major telecommunication carriers. This was my first software co-op
+                        and I ramped up quickly on Git and Scrum, working with designers, fellow developers, and product
+                        managers to create an intuitive user-driven application.
                     </p>
                 </TimelineContent>
             </TimelineItem>
@@ -48,7 +50,11 @@ class ExperienceTimeline extends Component {
                 <TimelineContent className="Timeline-Box">
                     <div className="Timeline-Content-Title"> Systems Engineer Co-op at Canon Healthcare Optics Research Laboratory
                     </div>
-                    <p>At Canon, I was part of the Systems Engineering Team that worked on building a Multi-Modal Optical Coherence Tomography System as part of a next-generation effort of medical imaging within the body.</p>
+                    <p>At Canon, I was part of the Systems Engineering Team that worked on building a Multi-Modal
+                        Optical Coherence Tomography System as part of a next-generation effort of medical imaging
+                        within the body. I took ownership of two main projects: building the PC subsystem and
+                        creating a digital signal processing Matlab script to process k-clock signals from laser output.
+                    </p>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem className="Timeline-Item">
@@ -60,12 +66,14 @@ class ExperienceTimeline extends Component {
                          alt="IL"
                          className="Timeline-Icon"
                     />
-                    {/*<TimelineConnector />*/}
                 </TimelineSeparator>
                 <TimelineContent className="Timeline-Box">
                     <div className="Timeline-Content-Title"> Process Engineer Co-op at Instrumentation Laboratory
                     </div>
-                    <p>At IL, I was part of the Process Engineering Team that helped develop and refine the process for assembling a module that would identify high-hematocrit blood.</p>
+                    <p>At IL, I was part of the Process Engineering Team that helped develop and refine the process
+                        for assembling a module that would identify high-hematocrit blood. This was my first co-op and
+                        I learned about biomedical engineering, working in a lab environment, and safely handling blood.
+                    </p>
                 </TimelineContent>
             </TimelineItem>
         </Timeline>

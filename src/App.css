@@ -25,6 +25,10 @@
   color: white;
 }
 
+.Sub-Header {
+  font-size: calc(10px + 2vmin);
+}
+
 .App-link {
   color: #61dafb;
 }

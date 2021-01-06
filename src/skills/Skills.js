@@ -22,18 +22,18 @@ class Skills extends Component {
         return (
             <div className="wrapper">
                 <div className="Column-1">
-                    {skillItem("Python", 4)}
+                    {skillItem("Python", 3.5)}
                     {skillItem("Kotlin", 4)}
                     {skillItem("JavaScript", 4)}
-                    {skillItem("SQL", 4)}
+                    {skillItem("SQL", 5)}
                     {skillItem("Java", 4)}
-                    {skillItem("C++", 4)}
+                    {skillItem("C++", 2.5)}
                     {skillItem("Matlab", 4)}
-                    {skillItem("drRacket", 4)}
+                    {skillItem("drRacket", 2.5)}
                 </div>
                 <div className="Column-2">
-                    {skillItem("Node.js", 4)}
-                    {skillItem("Express", 4)}
+                    {skillItem("Node.js", 3.5)}
+                    {skillItem("Express", 3.5)}
                     {skillItem("React Native", 4)}
                     {skillItem("MongoDB", 4)}
                     {skillItem("Android", 4)}
@@ -42,7 +42,7 @@ class Skills extends Component {
                 </div>
                 <div className="Column-3">
                     {skillItem("Optical Fiber", 4)}
-                    {skillItem("Machine Shop", 4)}
+                    {skillItem("Machine Shop", 3)}
                     {skillItem("Soldering", 4)}
                 </div>
             </div>

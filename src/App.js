@@ -8,9 +8,14 @@ function App() {
       <div>
     <div className="App">
       <header className="App-header">
-        <p>
-          Matthew Tong
-        </p>
+        <div>
+          Hi, I'm Matthew Tong
+        </div>
+        <div className="Sub-Header">
+          <p>
+            Welcome to my interactive resume
+          </p>
+        </div>
       </header>
     </div>
       <AboutMePage/>
