@@ -29,6 +29,18 @@
   font-size: calc(10px + 2vmin);
 }
 
+.View-my-work {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #2653ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  margin: 5px;
+}
+
 .App-link {
   color: #61dafb;
 }
