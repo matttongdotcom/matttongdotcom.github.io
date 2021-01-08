@@ -1,6 +1,6 @@
 .Date-Timeline {
     font-family: Ubuntu, serif;
-    left: -24px;
+    word-wrap: break-word;
 }
 
 .Timeline {

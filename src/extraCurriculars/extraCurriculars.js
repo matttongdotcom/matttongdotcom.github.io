@@ -2,19 +2,40 @@ import React, {Component} from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import './extraCurriculars.css'
 import 'react-web-tabs/dist/react-web-tabs.css';
+import generate from './generate.png';
 
 class ExtraCurriculars extends Component {
     render() {
         return (
-            <Tabs defaultTab="vertical-tab-one" vertical className="TabList">
-                <TabList>
-                    <Tab tabFor="vertical-tab-one">Generate Product Development Studio</Tab>
-                    <Tab tabFor="vertical-tab-two">Dragon & Lion Dance Troupe</Tab>
-                    <Tab tabFor="vertical-tab-three">ECE Department Peer Mentor</Tab>
-                    <Tab tabFor="vertical-tab-four">Marathon Training</Tab>
+            <Tabs defaultTab="vertical-tab-one" vertical className="Tabs">
+                <TabList className="TabList-wrapper">
+                    <Tab tabFor="vertical-tab-one">
+                        <div className="TabList">
+                            Generate Product Development Studio
+                        </div>
+                    </Tab>
+                    <Tab tabFor="vertical-tab-two">
+                        <div className="TabList">
+                            Dragon and Lion Dance Troupe
+                        </div>
+                    </Tab>
+                    <Tab tabFor="vertical-tab-three">
+                        <div className="TabList">
+                            ECE Department Peer Mentor
+                        </div>
+                    </Tab>
+                    <Tab tabFor="vertical-tab-four">
+                        <div className="TabList">
+                            Marathon Training
+                        </div>
+                    </Tab>
                 </TabList>
 
-                <TabPanel tabId="vertical-tab-one">
+                <TabPanel tabId="vertical-tab-one" className="Vertical-Tabs">
+                    {/*<img src={generate}*/}
+                    {/*     alt="generate"*/}
+                    {/*     className="Extra-Curricular-Photo"*/}
+                    {/*/>*/}
                     <p>
                         The Generate Product Development Studio is a student-run organization that takes real clients
                         and pairs their projects with a team of engineers, designers, and project leads.

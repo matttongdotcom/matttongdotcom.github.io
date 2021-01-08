@@ -1,3 +1,19 @@
+/*@media screen and (max-width: 800px) {*/
+/*.me-container {*/
+/*    width: 50vw;*/
+/*    height: 50vw;*/
+/*}*/
+/*.me {*/
+/*    height: 50vw;*/
+/*    width: 50vw;*/
+/*    border-radius: 100%;*/
+/*    border: 5px solid black;*/
+/*    -moz-box-shadow: 8px 7px #AFAFAF;*/
+/*    -webkit-box-shadow: 8px 7px #AFAFAF;*/
+/*    box-shadow: 8px 7px #AFAFAF;*/
+/*}*/
+/*}*/
+
 .Whole-Thing {
     font-family: Ubuntu, serif;
     background-color: #fff;
@@ -11,11 +27,19 @@
 
 .About-Me-Section {
     display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.me-container {
+    align-self: flex-end;
+    padding-bottom: 30px;
 }
 
 .Bio {
-    padding-left: 5%;
+    padding-left: 30px;
 }
 
 .Bio-Items {
@@ -37,8 +61,8 @@
 }
 
 .me {
-    height: 15%;
-    width: 15%;
+    max-width: 30vmin;
+    max-height: 30vmin;
     border-radius: 100%;
     border: 5px solid black;
     -moz-box-shadow: 8px 7px #AFAFAF;
@@ -68,15 +92,17 @@
 
 .Resume-Button {
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #00A4EF;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 18px;
+    vertical-align: middle;
+    font-size: calc(10px + 1vmin);
+    font-family: Ubuntu, serif;
     padding: 20px;
-    width: 10%;
-    margin: 5px;
+    width: 150px;
+    margin: auto;
 }
 
 .Resume-Button-Text {

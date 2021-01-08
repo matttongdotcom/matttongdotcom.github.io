@@ -1,7 +1,25 @@
-.TabList {
-    align-content: flex-start;
-    margin-left: 8%;
+.Tabs {
+    padding-left: 10%;
     width: 80%;
     padding-top: 30px;
     padding-bottom: 50px;
+}
+
+.TabList-wrapper {
+    width: 30%;
+}
+
+.TabList {
+    display: flex;
+    justify-content: center;
+}
+
+.Extra-Curricular-Photo {
+    align-self: center;
+    height: 15%;
+    width: 15%;
+}
+
+.Vertical-Tabs {
+    width: 100%;
 }

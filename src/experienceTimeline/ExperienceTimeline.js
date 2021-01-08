@@ -15,8 +15,10 @@ class ExperienceTimeline extends Component {
         return (
         <Timeline className="Timeline">
             <TimelineItem className="Timeline-Item">
-                <TimelineOppositeContent className="Date-Timeline">
-                    January-June 2020
+                <TimelineOppositeContent>
+                    <div className="Date-Timeline">
+                        January-June 2020
+                    </div>
                 </TimelineOppositeContent>
                 <TimelineSeparator className="Timeline-Separator">
                     <img src={rp}
@@ -37,8 +39,10 @@ class ExperienceTimeline extends Component {
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem className="Timeline-Item">
-                <TimelineOppositeContent className="Date-Timeline">
-                    January-August 2019
+                <TimelineOppositeContent>
+                    <div className="Date-Timeline">
+                        January-August 2019
+                    </div>
                 </TimelineOppositeContent>
                 <TimelineSeparator className="Timeline-Separator">
                     <img src={canon}
@@ -58,8 +62,10 @@ class ExperienceTimeline extends Component {
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem className="Timeline-Item">
-                <TimelineOppositeContent className="Date-Timeline">
-                    January-June 2018
+                <TimelineOppositeContent>
+                    <div className="Date-Timeline">
+                        January-June 2018
+                    </div>
                 </TimelineOppositeContent>
                 <TimelineSeparator className="Timeline-Separator">
                     <img src={il}

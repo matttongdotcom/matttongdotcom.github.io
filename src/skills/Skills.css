@@ -17,4 +17,9 @@
     margin-left: 10%;
     margin-right: 10%;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Column {
+    padding: 15px;
 }

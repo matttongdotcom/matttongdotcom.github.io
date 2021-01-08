@@ -21,7 +21,7 @@ class Skills extends Component {
     render() {
         return (
             <div className="wrapper">
-                <div className="Column-1">
+                <div className="Column">
                     {skillItem("Python", 3.5)}
                     {skillItem("Kotlin", 4)}
                     {skillItem("JavaScript", 4)}
@@ -31,7 +31,7 @@ class Skills extends Component {
                     {skillItem("Matlab", 4)}
                     {skillItem("drRacket", 2.5)}
                 </div>
-                <div className="Column-2">
+                <div className="Column">
                     {skillItem("Node.js", 3.5)}
                     {skillItem("Express", 3.5)}
                     {skillItem("React Native", 4)}
@@ -40,7 +40,7 @@ class Skills extends Component {
                     {skillItem("Git", 4)}
                     {skillItem("MySQL", 4)}
                 </div>
-                <div className="Column-3">
+                <div className="Column">
                     {skillItem("Optical Fiber", 4)}
                     {skillItem("Machine Shop", 3)}
                     {skillItem("Soldering", 4)}

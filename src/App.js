@@ -35,7 +35,7 @@ class App extends Component {
     }
 
     scrollToContent() {
-        this.content.current.scrollIntoView({ behavior: 'smooth'})
+        this.content.current.scrollIntoView({ behavior: 'smooth' });
     }
 
   render() {
@@ -52,8 +52,8 @@ class App extends Component {
                 </p>
               </div>
               <div>
-                <button className="View-my-work">
-                  View my work
+                <button onClick={() => this.scrollToContent()} className="View-my-work">
+                  Learn more about me
                 </button>
               </div>
             </header>

@@ -21,10 +21,12 @@ class AboutMePage extends Component {
                     About Me
                 </div>
                 <div className="About-Me-Section">
-                    <img src={me}
-                         alt="Me"
-                         className="me"
-                    />
+                    <div className="me-container">
+                        <img src={me}
+                             alt="Me"
+                             className="me"
+                        />
+                    </div>
                     <div className="Bio">
                         <p className="Bio-Items">
                             Name: Matthew Tong
@@ -54,7 +56,7 @@ class AboutMePage extends Component {
                 </div>
                 <div className="Description-Text">
                     I have significant experience in Process Engineering, Systems Engineering, and Software Development.
-                    If you'd like to see my official resume, click below!
+                    If you'd like to see my official resume, click the button below to download a pdf.
                 </div>
                 <div className="Resume-Button-Wrapper">
                     <button className="Resume-Button">
