@@ -2,15 +2,16 @@
     display: flex;
     justify-content: space-between;
     width: 250px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
-/*.Column-1 {*/
-/*    margin-left: 25%;*/
-/*}*/
-
-/*.Column-2 {*/
-/*    margin-right: 25%;*/
-/*}*/
+.Skills-Category:hover {
+    border-radius: 1em;
+    -webkit-box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+}
 
 .wrapper {
     display: flex;

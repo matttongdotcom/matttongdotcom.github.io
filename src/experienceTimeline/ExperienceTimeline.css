@@ -31,3 +31,12 @@
     -moz-box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
     box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
 }
+
+.Timeline-Box:hover {
+    position: relative;
+    padding-left: 15px;
+    border-radius: 1em;
+    -webkit-box-shadow: 16px 16px 32px 16px rgba(0,0,0,0.2);
+    -moz-box-shadow: 16px 16px 32px 16px rgba(0,0,0,0.2);
+    box-shadow: 16px 16px 32px 16px rgba(0,0,0,0.2);
+}

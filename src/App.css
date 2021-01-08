@@ -41,6 +41,21 @@
   margin: 5px;
 }
 
+.View-my-work:hover {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #2653ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  margin: 5px;
+  -webkit-box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+}
+
 .App-link {
   color: #61dafb;
 }
